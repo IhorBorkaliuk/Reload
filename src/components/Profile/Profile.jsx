@@ -15,7 +15,7 @@ export default function Profile({ username, avatar, stats }) {
   return (
     <ProfileWrap>
       <Description>
-        <Avatar src={avatar} alt="User avatar" class="avatar" />
+        <Avatar src={avatar} alt="User avatar" />
         <Name>{username}</Name>
         <Tag>@Tag marica</Tag>
         <Loc>Salvador, Brasil</Loc>
